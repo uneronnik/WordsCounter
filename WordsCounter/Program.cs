@@ -23,7 +23,7 @@ namespace WordsCounter
         }
         static bool IsForbiddenWord(string str)
         {
-            string[] forbiddenWords = {"в", "по", "на", "а", "—" };
+            string[] forbiddenWords = { "в", "по", "на", "а", "—", "" };
             foreach (var word in forbiddenWords)
             {
                 if (word == str)
